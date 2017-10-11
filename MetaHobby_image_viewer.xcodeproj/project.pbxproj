@@ -13,6 +13,10 @@
 		138E180A1F5C8E530000AA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 138E18091F5C8E530000AA92 /* Assets.xcassets */; };
 		138E180D1F5C8E530000AA92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138E180B1F5C8E530000AA92 /* LaunchScreen.storyboard */; };
 		138E18181F5C8E530000AA92 /* MetaHobby_image_viewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138E18171F5C8E530000AA92 /* MetaHobby_image_viewerTests.swift */; };
+		138E18251F5C93250000AA92 /* metaguy2.png in Resources */ = {isa = PBXBuildFile; fileRef = 138E18221F5C93250000AA92 /* metaguy2.png */; };
+		138E18261F5C93250000AA92 /* metaguy3.png in Resources */ = {isa = PBXBuildFile; fileRef = 138E18231F5C93250000AA92 /* metaguy3.png */; };
+		138E18271F5C93250000AA92 /* metaguy4.png in Resources */ = {isa = PBXBuildFile; fileRef = 138E18241F5C93250000AA92 /* metaguy4.png */; };
+		138E18291F5DB3A10000AA92 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138E18281F5DB3A10000AA92 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		138E18131F5C8E530000AA92 /* MetaHobby_image_viewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetaHobby_image_viewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		138E18171F5C8E530000AA92 /* MetaHobby_image_viewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaHobby_image_viewerTests.swift; sourceTree = "<group>"; };
 		138E18191F5C8E530000AA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		138E18221F5C93250000AA92 /* metaguy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metaguy2.png; sourceTree = "<group>"; };
+		138E18231F5C93250000AA92 /* metaguy3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metaguy3.png; sourceTree = "<group>"; };
+		138E18241F5C93250000AA92 /* metaguy4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metaguy4.png; sourceTree = "<group>"; };
+		138E18281F5DB3A10000AA92 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,9 @@
 				138E18011F5C8E530000AA92 /* MetaHobby_image_viewer */,
 				138E18161F5C8E530000AA92 /* MetaHobby_image_viewerTests */,
 				138E18001F5C8E530000AA92 /* Products */,
+				138E18221F5C93250000AA92 /* metaguy2.png */,
+				138E18231F5C93250000AA92 /* metaguy3.png */,
+				138E18241F5C93250000AA92 /* metaguy4.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +90,7 @@
 			children = (
 				138E18021F5C8E530000AA92 /* AppDelegate.swift */,
 				138E18041F5C8E530000AA92 /* ViewController.swift */,
+				138E18281F5DB3A10000AA92 /* DetailViewController.swift */,
 				138E18061F5C8E530000AA92 /* Main.storyboard */,
 				138E18091F5C8E530000AA92 /* Assets.xcassets */,
 				138E180B1F5C8E530000AA92 /* LaunchScreen.storyboard */,
@@ -146,6 +158,7 @@
 				TargetAttributes = {
 					138E17FE1F5C8E530000AA92 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HX4EQ4XJD2;
 						ProvisioningStyle = Automatic;
 					};
 					138E18121F5C8E530000AA92 = {
@@ -180,8 +193,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				138E180D1F5C8E530000AA92 /* LaunchScreen.storyboard in Resources */,
+				138E18271F5C93250000AA92 /* metaguy4.png in Resources */,
+				138E18251F5C93250000AA92 /* metaguy2.png in Resources */,
 				138E180A1F5C8E530000AA92 /* Assets.xcassets in Resources */,
 				138E18081F5C8E530000AA92 /* Main.storyboard in Resources */,
+				138E18261F5C93250000AA92 /* metaguy3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				138E18291F5DB3A10000AA92 /* DetailViewController.swift in Sources */,
 				138E18051F5C8E530000AA92 /* ViewController.swift in Sources */,
 				138E18031F5C8E530000AA92 /* AppDelegate.swift in Sources */,
 			);
@@ -341,7 +358,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HX4EQ4XJD2;
 				INFOPLIST_FILE = MetaHobby_image_viewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MetaHobby.MetaHobby-image-viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,7 +372,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HX4EQ4XJD2;
 				INFOPLIST_FILE = MetaHobby_image_viewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MetaHobby.MetaHobby-image-viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,6 +429,7 @@
 				138E181E1F5C8E530000AA92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		138E181F1F5C8E530000AA92 /* Build configuration list for PBXNativeTarget "MetaHobby_image_viewerTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +438,7 @@
 				138E18211F5C8E530000AA92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
